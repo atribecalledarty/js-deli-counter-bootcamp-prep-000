@@ -1,5 +1,5 @@
 function takeANumber(currLine, newPerson){
-  katzDeliLine.push(newPerson);
-  console.log('Welcome, ' + newPerson + '. You are number '+ currLine + ' in line.')
+  currLine.push(newPerson)
+  console.log('Welcome, ' + newPerson + '. You are number '+ currLine.length + ' in line.')
   
 }
