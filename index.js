@@ -17,7 +17,9 @@ function currentLine(currLine){
   var sentence = "The line is currently: "
   for (var i = 0; i < currLine.length; i++){
     sentence = sentence + (i+1) + '. ' + currLine[i]
-    if ((i+1) )
+    if ((i+1) !== currLine.length){
+      sentence = sentence + ', '
+    }
   }
   
   
