@@ -24,7 +24,7 @@ function currentLine(currLine){
   }
   return sentence
   } else{
-    return 'The Line is currently empty.'
+    return 'The line is currently empty.'
   }
   
   
