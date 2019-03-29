@@ -12,3 +12,12 @@ function nowServing(currLine){
     return 'There is nobody waiting to be served!'
   }
 }
+
+function currentLine(currLine){
+  var sentence = "The line is currently: "
+  for (var i = 0; i < currLine.length; i++){
+    
+  }
+  
+  
+}
