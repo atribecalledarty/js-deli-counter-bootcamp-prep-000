@@ -21,6 +21,7 @@ function currentLine(currLine){
       sentence = sentence + ', '
     }
   }
+  return sentence
   
   
 }
