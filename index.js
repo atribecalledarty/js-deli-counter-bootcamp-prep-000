@@ -14,6 +14,7 @@ function nowServing(currLine){
 }
 
 function currentLine(currLine){
+  if (currLine.length > 0){
   var sentence = "The line is currently: "
   for (var i = 0; i < currLine.length; i++){
     sentence = sentence + (i+1) + '. ' + currLine[i]
@@ -22,6 +23,9 @@ function currentLine(currLine){
     }
   }
   return sentence
+  } else{
+    return 'The Line is currently empty.'
+  }
   
   
 }
